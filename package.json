@@ -1,0 +1,16 @@
+{
+  "name": "meval",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "tsc && mocha",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.12",
+    "mocha": "^10.4.0",
+    "typescript": "^5.4.5"
+  }
+}
