@@ -19,6 +19,7 @@ const operators: { [key: string]: Operator } = {
     'arctan': new Operator('arctan', operator.arctan).asFunction(),
     'sqrt': new Operator('sqrt', operator.sqrt).asFunction(),
     '!': new Operator('!', operator.factorial, 1).withPrecedence(5),
+    '%': new Operator('%', operator.percentage, 1).withPrecedence(5)
 } as const;
 
 const constants: { [key: string]: Number } = {

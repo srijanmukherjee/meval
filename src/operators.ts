@@ -73,3 +73,7 @@ export function factorial(values: number[]): number {
 
     return value;
 }
+
+export function percentage(values: number[]): number {
+    return values[0] / 100.0;
+}

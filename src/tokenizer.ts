@@ -8,7 +8,7 @@ function isAlpha(c: string): boolean {
 }
 
 function isOperator(c: string): boolean {
-    return ['*', '+', '-', '/', '^', '!'].indexOf(c) > -1;
+    return ['*', '+', '-', '/', '^', '!', '%'].indexOf(c) > -1;
 }
 
 export type TokenResult = {
